@@ -1,0 +1,31 @@
+
+
+viewing proj:
+
+--------
+to compile: 
+--------
+ just enter 'make' to compile
+
+--------
+to run:
+--------
+./main
+
+when log into ssh server make sure to turn on Xming to run program
+after compile enter 'main' then it will open new windows
+w - go forward
+s - go backward
+a - go to left
+d - go to right
+
+use mouse to turn a point of view
+home key to reset the position and camera view
+
+./main 1000 800
+
+here 
+  1000 is width; 800 is height
+
+bug: robot will turn around when the point of view turns
+but it will not follow or it will not alway at the back of the camera position
